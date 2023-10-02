@@ -7,17 +7,34 @@ import typefaceFont from 'three/examples/fonts/helvetiker_regular.typeface.json'
 
 THREE.ColorManagement.enabled = false
 
+
+/**
+ * active link
+ */
+var currentLink = document.getElementsByClassName("currentList")
+
+for (var i = 0; i < currentLink.length; i++) {
+    currentLink[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace(" active", "");
+    }
+    this.className += " active";
+    });
+  }
+
 /**
  * Base
  */
 // Debug
-const gui = new dat.GUI()
+// const gui = new dat.GUI()
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
 
 // Scene
 const scene = new THREE.Scene()
+
 
 /**
  * Textures

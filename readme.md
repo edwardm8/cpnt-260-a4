@@ -1,4 +1,4 @@
-# Three.js Journey
+# CPNT-260-a4
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).

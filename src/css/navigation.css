@@ -1,0 +1,47 @@
+nav{
+  display: flex;
+
+  justify-content: space-between;
+  padding: 1rem;
+  padding-right: 0;
+}
+
+nav ul{
+  display: flex;
+
+  font-size: 22px;
+  justify-content: space-evenly;
+
+  align-items: center;
+  gap: 2rem;
+  list-style-type: none;
+
+  background-color: #451F55;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+
+  padding: 1rem;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.logo
+{
+  font-size: 45px;
+  
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#F8C630;
+}
+
+
+
+
+
