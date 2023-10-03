@@ -13,10 +13,12 @@ header{
   background-size: cover;
   background-position: center; 
 }
+
 header p {
   padding: 1rem;
 }
 
+/*styling for text boxes*/
 section{
   margin: auto;
   padding: 1rem;

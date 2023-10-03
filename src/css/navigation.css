@@ -1,10 +1,13 @@
+/*nav bar*/
 nav{
   display: flex;
 
   justify-content: space-between;
+  
   padding: 1rem;
 }
 
+/*hide when horeizontal bar on mobile*/
 nav ul{
   display: none;
   
@@ -19,6 +22,7 @@ nav ul{
   padding: 1rem;
 }
 
+/*hide checkbox*/
 input{
   display: none;
 }
@@ -27,10 +31,12 @@ label{
   padding: 1rem;
 }
 
+/*checkbox for ham menu*/
 input:checked + ul {
   display: flex;
 }
 
+/*nav link styling*/
 nav a{
   text-decoration: none;
   color: white;

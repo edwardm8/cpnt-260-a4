@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-/*prvent trackpad on some browers to got past footer and the bounce causing overscroll*/
+/*prevent trackpad on some browers to got past footer and the bounce causing overscroll*/
 html{
   overscroll-behavior: none;
 }
