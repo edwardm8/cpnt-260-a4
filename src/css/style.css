@@ -1,9 +1,38 @@
+/*reset*/
 *
 {
   margin: 0;
   padding: 0;
 }
 
+/*prvent trackpad on some browers to got past footer and the bounce causing overscroll*/
+html{
+  overscroll-behavior: none;
+}
+
+body{
+  overscroll-behavior: none;
+  
+  background-color: #724E91;
+  line-height: 1.5;
+
+  width: 100%;
+}
+
+/*universal button component styles*/
+.button{
+  text-decoration: none;
+
+  background-color: #451F55;
+  color: white;
+
+  border-radius: 1rem;
+  padding: 1rem;
+
+  font-family: 'Staatliches', sans-serif;
+}
+
+/*three.js webgl canvas*/
 .webgl
 {
     position: fixed;

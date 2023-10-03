@@ -3,24 +3,32 @@ nav{
 
   justify-content: space-between;
   padding: 1rem;
-  padding-right: 0;
 }
 
 nav ul{
-  display: flex;
-
-  font-size: 22px;
-  justify-content: space-evenly;
-
+  display: none;
+  
   align-items: center;
   gap: 2rem;
-  list-style-type: none;
+
+  flex-direction: column;
 
   background-color: #451F55;
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-radius: 1rem;
 
   padding: 1rem;
+}
+
+input{
+  display: none;
+}
+
+label{
+  padding: 1rem;
+}
+
+input:checked + ul {
+  display: flex;
 }
 
 nav a{
@@ -29,19 +37,33 @@ nav a{
   text-shadow: 1px 1px 1px black;
 }
 
-.logo
-{
-  font-size: 45px;
-  
+.logo{
   color: white;
-  text-decoration: none;
+}
+  
+/*active link seems easier with js with getElement and setting a class to match with this css. Did not do, just hard coded instead with focus*/
+.current{
+  color:#F8C630;
 }
 
 a:hover{
   color:#F8C630;
 }
 
+a:focus{
+  color:#F8C630;
+}
 
+/*desktopshow horizontal nav bar, moblie show vertical ham menu*/
+@media screen and (width > 40rem){ 
+  nav ul{
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-
-
+  label{
+    display: none;
+  }
+}
