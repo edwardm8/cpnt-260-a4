@@ -11,10 +11,6 @@ form label {
   font-size: 25px;
 }
 
-#message{
-  height: 200px;
-}
-
 button {
   margin: auto;
   width: 20ch;

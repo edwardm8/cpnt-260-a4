@@ -2,37 +2,50 @@
 .gallery {
   display: grid;
 }
-article p {
+
+.gallery p {
   text-align: center;
   padding: 1rem;
+  font-size: 20px;
 }
-article {
+
+.gallery a {
   max-width: 100%;
 
   background-color: #ccc;
   border-radius: 1rem;
   border: 1px solid #aaa;
-  
-}
-.gallery a {
-  text-decoration: none;
-  margin:1rem;
-}
-article h3 {
-  text-align: center;
-  text-decoration: none;
 }
 
-article img {
+.gallery a {
+  max-width: fit-content;
+  text-decoration: none;
+  margin:1rem;
+  color: #451F55;
+}
+
+.gallery h3 {
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+.gallery img {
   display: block;
   width: 100%;
   aspect-ratio: 1/1;
   object-fit: contain;
 }
 
+.gallery a:hover{
+  box-shadow: 10px 5px 5px;
+}
+
 @media screen and (width>50rem) {
   .gallery{
     grid-template-columns: repeat(3, 1fr);
+    min-width: 100%;
     gap: 4rem;  
   }
 }
