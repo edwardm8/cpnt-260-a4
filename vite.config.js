@@ -1,7 +1,7 @@
 const isCodeSandbox = 'SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in process.env
 
 export default {
-    root: 'src/index.html',
+    root: 'src/',
     publicDir: '../static/',
     base: '/cpnt-260-a4/',
     server:
