@@ -1,5 +1,22 @@
-form{
+form {
+  margin: auto;
   display: flex;
   flex-direction: column;
   width:40ch;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+form label {
+  font-size: 25px;
+}
+
+#message{
+  height: 200px;
+}
+
+button {
+  margin: auto;
+  width: 20ch;
+  height: 5ch;
 }

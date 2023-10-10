@@ -5,13 +5,8 @@
   padding: 0;
 }
 
-/*prevent trackpad on some browers to got past footer and the bounce causing overscroll*/
-html {
-  overscroll-behavior: none;
-}
 
 body {
-  overscroll-behavior: none;
   
   background-color: #724E91;
   line-height: 1.5;

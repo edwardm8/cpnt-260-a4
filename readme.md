@@ -1,4 +1,4 @@
-# CPNT-260-a4: full page layout
+# CPNT-260-a5: 3 page
 
 ## Edward Mah
 
@@ -36,3 +36,5 @@ footer.css
 - [image filter](https://www.tutorialspoint.com/how-to-darken-an-image-using-css)
 - [fontawsome](https://fontawesome.com/)
 - [googlefonts](https://fonts.google.com/?query=gabar)
+- [textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+
