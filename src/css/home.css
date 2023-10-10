@@ -1,11 +1,11 @@
 /*hero for home page*/
-header{
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../../images/pileDonut.png);
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/pileDonut.png);
 
   height: 100vh;
  
@@ -19,7 +19,7 @@ header p {
 }
 
 /*styling for text boxes*/
-section{
+section {
   margin: auto;
   padding: 1rem;
   margin-top: 1rem;

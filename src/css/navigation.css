@@ -1,5 +1,5 @@
 /*nav bar*/
-nav{
+nav {
   display: flex;
 
   justify-content: space-between;
@@ -8,7 +8,7 @@ nav{
 }
 
 /*hide when horeizontal bar on mobile*/
-nav ul{
+nav ul {
   display: none;
   
   align-items: center;
@@ -23,11 +23,11 @@ nav ul{
 }
 
 /*hide checkbox*/
-input{
+input {
   display: none;
 }
 
-label{
+label {
   padding: 1rem;
 }
 
@@ -37,31 +37,31 @@ input:checked + ul {
 }
 
 /*nav link styling*/
-nav a{
+nav a {
   text-decoration: none;
   color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-.logo{
+.logo {
   color: white;
 }
   
 /*active link seems easier with js with getElement and setting a class to match with this css. Did not do, just hard coded instead with focus*/
-.current{
+.current {
   color:#F8C630;
 }
 
-a:hover{
+a:hover {
   color:#F8C630;
 }
 
-a:focus{
+a:focus {
   color:#F8C630;
 }
 
 /*desktopshow horizontal nav bar, moblie show vertical ham menu*/
-@media screen and (width > 40rem){ 
+@media screen and (width > 40rem) { 
   nav ul{
     display: flex;
     

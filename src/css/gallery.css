@@ -1,0 +1,38 @@
+
+.gallery {
+  display: grid;
+}
+article p {
+  text-align: center;
+  padding: 1rem;
+}
+article {
+  max-width: 100%;
+
+  background-color: #ccc;
+  border-radius: 1rem;
+  border: 1px solid #aaa;
+  
+}
+.gallery a {
+  text-decoration: none;
+  margin:1rem;
+}
+article h3 {
+  text-align: center;
+  text-decoration: none;
+}
+
+article img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+@media screen and (width>50rem) {
+  .gallery{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;  
+  }
+}

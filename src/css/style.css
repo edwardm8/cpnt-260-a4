@@ -6,11 +6,11 @@
 }
 
 /*prevent trackpad on some browers to got past footer and the bounce causing overscroll*/
-html{
+html {
   overscroll-behavior: none;
 }
 
-body{
+body {
   overscroll-behavior: none;
   
   background-color: #724E91;
@@ -20,7 +20,7 @@ body{
 }
 
 /*universal button component styles*/
-.button{
+.button {
   text-decoration: none;
 
   background-color: #451F55;

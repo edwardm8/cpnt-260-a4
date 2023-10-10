@@ -1,5 +1,5 @@
 /*start page styling*/
-.start{
+.start {
   display: flex;
 
   flex-direction: column;
@@ -10,11 +10,11 @@
   padding-top: 250px;
 }
 
-.start h1{
+.start h1 {
   padding: 1rem;
 }
 
-.start p{
+.start p { 
   padding: 1rem;
 }
 

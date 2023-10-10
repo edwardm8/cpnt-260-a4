@@ -4,7 +4,7 @@ i{
   color: white;
 }
 
-footer{
+footer {
   text-align: center;
   
   left: 0;
@@ -15,7 +15,7 @@ footer{
   position: relative;
 }
 
-footer ul{
+footer ul {
   display: flex;
   text-decoration: none;
   list-style-type: none;
