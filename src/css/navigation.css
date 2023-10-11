@@ -50,7 +50,6 @@ a:hover {
   color:#F8C630;
 }
 
-
 /*desktopshow horizontal nav bar, moblie show vertical ham menu*/
 @media screen and (width > 50rem) { 
   nav ul{

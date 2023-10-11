@@ -37,6 +37,11 @@ nav a {
 
 form label {
   font-size: 25px;
+  font-family: 'Gabarito', sans-serif;
+}
+
+form button {
+  font-family: 'Gabarito', sans-serif;
 }
 
 .start {

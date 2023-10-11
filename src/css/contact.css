@@ -1,13 +1,18 @@
+
+/* form styling */
 form {
   margin: auto;
   display: flex;
-  flex-direction: column;
 
-  width: 40ch;
-  gap: 2rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  min-width: 50%;
+  gap: 1rem;
   padding: 1rem;
 }
 
+/* button for forms */
 button {
   margin: auto;
   width: 20ch;

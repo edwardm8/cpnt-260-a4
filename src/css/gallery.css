@@ -1,4 +1,4 @@
-
+/*mobile display single item per block*/
 .gallery {
   display: grid;
 }
@@ -27,6 +27,7 @@
 .gallery a:hover {
   background-color: gainsboro;
 }
+
 .gallery h3 {
   text-align: center;
   text-decoration: none;
@@ -45,6 +46,7 @@
   box-shadow: 10px 5px 5px;
 }
 
+/*3 items per row on desktop*/
 @media screen and (width>50rem) {
   .gallery{
     grid-template-columns: repeat(3, 1fr);
