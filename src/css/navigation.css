@@ -18,10 +18,6 @@ nav ul {
   padding: 1rem;
 }
 
-.current {
-  color:#F8C630;
-}
-
 /*hide checkbox*/
 nav input {
   display: none;
@@ -38,8 +34,7 @@ input:checked + ul {
   display: flex;
 }
 
-/*nav link styling*/
-nav a {
+nav a {  
   color: white;
 }
 

@@ -24,6 +24,9 @@
   color: #451F55;
 }
 
+.gallery a:hover {
+  background-color: gainsboro;
+}
 .gallery h3 {
   text-align: center;
   text-decoration: none;
